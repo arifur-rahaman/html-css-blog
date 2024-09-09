@@ -41,3 +41,49 @@ body {
   align-items: center;
 }
 /* reset code and common ends here */
+
+/* header stars here */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  min-height: 5vh;
+}
+
+.logo-figure {
+  border: 1px solid #fff;
+}
+
+.logo {
+  font-size: 4rem;
+}
+
+.nav__link {
+  color: #fff;
+  padding: 1rem;
+  transition: all 0.4s;
+}
+
+.nav__link:hover {
+  background-color: brown;
+  border-radius: 5px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+nav ul li:hover {
+  transform: scale(1.2);
+  margin-left: 2px;
+}
+
+/* header end here */

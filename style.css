@@ -88,6 +88,44 @@ nav ul li:hover {
 
 /* header end here */
 
+/* banner section starts here */
+.banner{
+  padding: 5rem 1rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 95vh;
+}
+
+.banner__article{
+flex-basis: 50%;
+margin: 1rem;
+}
+
+.banner__aside{
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.banner__img{
+  width: 55rem;
+  height: 55rem;
+  border: 0.3rem solid;
+}
+
+
+.banner__heading{
+  display: inline-block;
+  padding:1rem;
+  background-color: black;
+  color: #fff
+}
+/* banner section ends here */
+.banner__description{
+  
+}
+
+
 /* responsive starts here */
 @media screen and (max-width: 992px) {
 }
@@ -111,6 +149,10 @@ nav ul li:hover {
   header {
     flex-direction: column;
   }
-}
 
+  .banner{
+flex-direction: column;
+  }
+}
+/* responsive ende here */
 }

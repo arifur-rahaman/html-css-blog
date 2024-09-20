@@ -40,7 +40,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+flex-direction: column;
 }
 
 .text-justify{
@@ -49,6 +49,25 @@ body {
 
 .text-white{
   color:#fff;
+}
+
+.btn{
+  background-color: rgb(230, 159, 8);
+  border: none;
+  outline: none;
+  border-radius: 0.6rem;
+  padding: 2px 10px;
+  cursor: pointer;
+  box-shadow: 0.1rem 0.1rem 0.1rem;
+ color: #222;
+ letter-spacing: 0.1rem;
+ text-transform: uppercase;
+}
+
+.section-heading{
+  font-size: 6rem;
+  text-align: center;
+  font-family:"Italiano", cursive ;
 }
 
 /* reset code and common ends here */
@@ -142,7 +161,54 @@ margin: 1rem;
 /* .banner__description{
 
 } */
+
 /* banner section ends here */
+
+
+/* about me section starts here */
+#blog-about{
+  background-color: #4c4c4c;
+  height: 60vh;
+  justify-content: space-evenly;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card{
+  flex: 1;
+  border-radius: 0.6rem;
+  background-color: #a09d9d;
+  padding: 3rem 1rem;
+  margin: 2rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s linear;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card__header{
+  font-size: 3rem;
+}
+.card__description{
+  padding: 0.4rem 0;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.card__btn{
+
+}
+
+/* about me section ends here */
 
 
 /* responsive starts here */

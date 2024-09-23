@@ -31,6 +31,8 @@ body {
 :root {
   --transition: all 0.3s linear;
   --scale: scale(1.1);
+  --shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
+
   /* --bg-color: #eeeeee;
   --text-color: #222831;
   --primary-color: #393e46;
@@ -61,10 +63,16 @@ flex-direction: column;
   border-radius: 0.6rem;
   padding: 2px 10px;
   cursor: pointer;
-  box-shadow: 0.1rem 0.1rem 0.1rem;
+  box-shadow: var(--shadow);
  color: #222;
  letter-spacing: 0.1rem;
  text-transform: uppercase;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .section-heading{
@@ -239,14 +247,50 @@ margin: 1rem;
 
 .archieves__lists{
 display: flex;
-
 gap: 1rem;
 }
 
-.archieves__list{
+/* .archieves__list{
 
-}
+} */
+
+
 /* archieves section ends here */
+
+
+/* blog-post section starts here */
+
+.blog-post__heading{
+  margin-bottom: 2rem;
+}
+
+.blog-post{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: var(--shadow);
+  margin: 1rem 0;
+  transition: var(--transition)
+}
+
+
+.blog-post:hover{
+  transform: var(--scale);
+}
+
+.blog-post__aside{
+  flex: 1;
+}
+
+.blog-post__content{
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+
+/* blog-post section ends here */
 
 
 /* responsive starts here */

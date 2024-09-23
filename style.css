@@ -214,6 +214,7 @@ margin: 1rem;
 /* about me section ends here */
 
 /* archieves section starts here */
+
 .archieves-container{
   display: flex;
   justify-content: space-evenly;
@@ -275,6 +276,14 @@ gap: 1rem;
     width: 80%;
     flex-direction: column;
   }
+  #blog-about{
+    min-height: auto;
+  }
+
+  #archieves{
+    min-height: auto;
+  }
+  
 }
 @media screen and (max-width: 600px) {
   html {
@@ -314,6 +323,13 @@ flex-direction: column;
   .cards{
     width: 90%;
   
+  }
+
+  .archieves__lists{
+    flex-wrap: wrap;
+    gap: 3rem;
+    flex-direction: column;
+    width: 90%;
   }
 }
 /* responsive ende here */

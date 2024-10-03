@@ -170,9 +170,7 @@ margin: 1rem;
 
 
 
-/* .banner__description{
 
-} */
 
 /* banner section ends here */
 
@@ -361,6 +359,40 @@ form{
 }
 
 /* contact section ends here */
+
+
+
+/* footer starts here */
+.footer{
+  background-color: #222;
+  color: #fff;
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.copyright__text{
+  font-size: 1.5rem;
+}
+
+.footer__link{
+  color: #fff;
+}
+
+
+.footer__nav{
+  display: flex;
+  gap:1.5rem;
+}
+
+.footer__icon{
+  font-size: 2rem;
+
+}
+
+/* footer ends here */
 
 
 /* responsive starts here */

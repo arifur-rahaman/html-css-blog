@@ -368,6 +368,7 @@ form{
   color: #fff;
   min-height: 5vh;
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
   align-items: center;
   padding: 3rem 1rem;
@@ -379,6 +380,12 @@ form{
 
 .footer__link{
   color: #fff;
+  transition: var(--transition);
+}
+
+.footer__link:hover{
+  color: orange;
+  transform: scale(1.7);
 }
 
 
@@ -507,6 +514,12 @@ flex-direction: column;
   .form-control > input,textarea{
     margin-top: 1rem ;
   }
+
+  .footer{
+    flex-direction: column;
+  }
+
+  
   
 }
 /* responsive ende here */
